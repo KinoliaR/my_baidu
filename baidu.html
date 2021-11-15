@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* 顶部文字 */
+        .top{
+            float: right;
+            word-spacing: 20px;
+        }
+        .cuti{
+            font-weight: bolder;
+        }
+        .chanpin{
+            background-color: #3385FF;
+            color: white;
+            border: none;
+            height: 30px;
+        }
+        /* 中间搜索栏 */
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 800px;
+            height: 500px;
+            margin-top: -200px;
+            margin-left: -350px;
+            text-align: center;
+        }
+        .logo{
+            width: 75px;
+            height: fit-content;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            min-width: 150px;
+        }
+        .logo img{
+            width: 215px;
+            height: fit-content;
+        }
+        .shuru{
+            width: 750px;
+            height: 50px;
+            margin:  auto;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            min-width: 750px;
+        }
+        input{
+            width: 550px;
+            height: 40px;
+            border-right: none;
+        }
+        .search button{
+            width: 75px;
+            height: 46px;
+            border-left: none;
+            background-color: #3385FF;
+            color: white;
+        }
+        a:visited{color:unset;}
+        /* 底部 */
+        .blank{
+            height:150px ;
+        }
+        .ma{
+            display: flex;
+            justify-content: center;
+        }
+        .ma img{
+            width: 80px;
+            height: fit-content;
+            display: flex;
+            align-content: flex-end;
+        }
+        .word{
+            word-spacing: 20px;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <!-- 右上角文字 -->
+    <div class="top">
+        <a href=# class="cuti">新闻</a>
+        <a href=# class="cuti">hao123</a>
+        <a href=# class="cuti">地图</a>
+        <a href=# class="cuti">视频</a>
+        <a href=# class="cuti">贴吧</a>
+        <a href=# class="cuti">学术</a>
+        <a href=#>登录</a>
+        <a href=#>设置</a>
+        <button class="chanpin">
+            <a href=# style="text-decoration: none;">更多产品</a>
+        </button>
+    </div>
+
+    <!-- 百度Logo以及搜索栏 -->
+    <div class="box">
+        <div class="logo">
+              <a href="http://baidu.com"><img src="baidu.png"/></a>
+        </div>
+        <div class="shuru search">
+          <input type="text" name="content"/>
+          <button>百度一下</button>
+        </div>
+        <!-- 下半部分 -->
+        <div class="blank"></div>
+        <div class="ma">
+            <img src="baidu_ma.png" />
+        </div>
+        <p class="word">下载百度APP</p>
+        <p class="word">有事搜一搜，没事看一看</p>
+        <br />
+        <div class="word">
+            <a href=#>把百度设为首页</a>
+            <a href=#>关于百度</a>
+            <a href=# style="word-spacing: normal;">About Baidu</a>
+            <a href=#>百度推广</a>
+        </div>
+        <p class="word">2019_Baidu<a href=#>使用百度前必读</a> <a href=#>意见反馈</a>***证***号 KC制造———hhhhhh号</p>
+    </div>
+</body>
+</html>
